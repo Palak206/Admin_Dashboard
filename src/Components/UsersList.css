@@ -7,10 +7,9 @@
 }
 
 .table {
-  width: 65%;
+  width: 35%;
   margin: auto;
 
-  /* display: flex; */
 }
 .table tr {
   width: 80%;
@@ -35,9 +34,10 @@
 }
 
 .btn {
-  display: flex;
-  gap: 0.3%;
+  /* display: flex; */
+  gap: 0.4%;
 }
+
 @media only screen and (min-width: 400px) {
   .container {
     width: 100%;
@@ -51,7 +51,6 @@
     width: 65%;
     margin: auto;
 
-    /* display: flex; */
   }
   .pagination {
     width: 100%;
@@ -63,6 +62,9 @@
     margin: auto;
     cursor: pointer;
   }
+  /* .pagination:hover{
+    background-color: gray;
+  } */
 }
 @media only screen and (min-width: 768px) {
   .container {
@@ -88,5 +90,8 @@
     list-style: none;
     margin: auto;
     cursor: pointer;
+  }
+  .pagination :hover{
+    background-color: lightgray;
   }
 }

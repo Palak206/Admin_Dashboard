@@ -58,7 +58,7 @@ function UsersList() {
       <input
         type="text"
         name="name"
-        placeholder=" Search by any field "
+        placeholder=" Search Value "
         onChange={(e) => setSearchUser(e.target.value)}
       />
 
