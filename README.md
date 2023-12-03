@@ -3,13 +3,6 @@
 ## Problem Statement- You work at a startup that is building an interface for admins to see and delete users. The users will be provided via an API. Your job is to build out a working UI. See image below for reference.
 
 
-
-## How to Run This Project 
-
-clone the repo with
-<br> 
-$git clone https://github.com/Ranjan1501/Admin_UI.git
-
 install all the dependcies
 
 $npm install
